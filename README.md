@@ -19,6 +19,11 @@ This project develops a machine learning model to predict stock movements based 
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    pip install -r requirements.txt
+OR
+
+    pip install praw pandas numpy scikit-learn nltk matplotlib seaborn
+    pip install --upgrade nltk
+   
 
 3. Set up your Reddit API credentials:
    create .env file and add Client ID, Secret, and User-Agent.
