@@ -11,7 +11,7 @@ This project develops a machine learning model to predict stock movements based 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/stock-sentiment-analysis.git
+   git clone https://github.com/suruchiksd/Stock-Movement-Analysis-Based-on-Social-Media-Sentiment.git
    cd stock-sentiment-analysis
 
 2. Create a virtual environment and install dependencies:
@@ -19,6 +19,7 @@ This project develops a machine learning model to predict stock movements based 
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    pip install -r requirements.txt
+
 OR
 
     pip install praw pandas numpy scikit-learn nltk matplotlib seaborn
